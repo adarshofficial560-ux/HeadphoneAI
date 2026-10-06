@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+  <title>Sony WH-1000XM6 — Silence, Perfected</title>
+  <meta name="description" content="Sony WH-1000XM6 flagship wireless noise-cancelling headphones. Cinematic scrollytelling engineering showcase.">
+  <meta name="theme-color" content="#050505">
+  
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎧</text></svg>">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  
+  <div class="preloader" id="preloader">
+    <div class="loader-content">
+      <div class="loader-logo">SONY</div>
+      <div class="loader-bar-bg">
+        <div class="loader-bar-fill" id="loaderFill"></div>
+      </div>
+      <div class="loader-percent" id="loaderPercent">0%</div>
+    </div>
+  </div>
+
+   
+  <div class="ambient-backdrop-glow"></div>
+  <canvas id="headphoneCanvas"></canvas>
+
+  
+  <header class="navbar-wrapper">
+    <nav class="navbar" id="navbar">
+      <a href="#" class="nav-brand">
+        <span class="sony-wordmark">SONY</span>
+        <span class="brand-divider"></span>
+        <span class="product-pill">WH-1000XM6</span>
+      </a>
+
+      <ul class="nav-links">
+        <li><a class="nav-link" data-scroll-to="frame:0.02">Overview</a></li>
+        <li><a class="nav-link" data-scroll-to="stage-1">Architecture</a></li>
+        <li><a class="nav-link" data-scroll-to="stage-2">Noise Cancelling</a></li>
+        <li><a class="nav-link" data-scroll-to="stage-3">Acoustics</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <button class="nav-cta-btn" data-scroll-to="stage-cta">
+          <span>Pre-order</span>
+          <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+            <path d="M5 12h14M12 5l7 7-7 7"/>
+          </svg>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  
+  <main class="scrolly-track" id="scrollyTrack">
+    
+    
+    <section class="story-stage-hero">
+      <h1 class="hero-title">Sony WH‑1000XM6</h1>
+      <p class="hero-subtitle">Silence, perfected.</p>
+      <p class="hero-description">
+        Flagship wireless noise cancelling, re‑engineered for a world that never stops.
+      </p>
+      <div class="scroll-indicator">
+        <span class="scroll-indicator-line"></span>
+        <span>Scroll to explore</span>
+        <span class="scroll-indicator-line"></span>
+      </div>
+    </section>
+
+    
+    <div class="story-stage-row align-left" id="stage-1">
+      <div class="editorial-text-block">
+        <div class="stage-badge">01 / ACOUSTIC ARCHITECTURE</div>
+        <h2 class="stage-headline">Precision-engineered for silence.</h2>
+        <p class="stage-copy">
+          Custom 40mm carbon-fiber composite drivers, sealed acoustic chambers, and optimized airflow deliver studio-grade clarity.
+        </p>
+        <p class="stage-copy">
+          Every component is tuned for acoustic balance, dynamic power, and all-day comfort.
+        </p>
+        <div class="stage-metrics-grid">
+          <div class="metric-item">
+            <span class="metric-val">40mm</span>
+            <span class="metric-lbl">Carbon Driver</span>
+          </div>
+          <div class="metric-item">
+            <span class="metric-val">40 kHz</span>
+            <span class="metric-lbl">Hi-Res Bandwidth</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    
+    <div class="story-stage-row align-right" id="stage-2">
+      <div class="editorial-text-block">
+        <div class="stage-badge">02 / INTELLIGENT NOISE CANCELLING</div>
+        <h2 class="stage-headline">Adaptive isolation, redefined.</h2>
+        <p class="stage-copy">
+          Dual HD QN3 neural processors analyze ambient environments 700,000 times per second, dynamically tailoring anti-noise frequencies.
+        </p>
+        <p class="stage-copy">
+          8 omnidirectional beamforming microphones cancel aircraft hum, urban roar, and sudden chatter before they reach your ear.
+        </p>
+        <div class="stage-metrics-grid">
+          <div class="metric-item">
+            <span class="metric-val">-42 dB</span>
+            <span class="metric-lbl">Max Attenuation</span>
+          </div>
+          <div class="metric-item">
+            <span class="metric-val">8 Mics</span>
+            <span class="metric-lbl">Real-time Sensing</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    
+    <div class="story-stage-row align-left" id="stage-3">
+      <div class="editorial-text-block">
+        <div class="stage-badge">03 / STUDIO FIDELITY</div>
+        <h2 class="stage-headline">Immersive, lifelike sound.</h2>
+        <p class="stage-copy">
+          Wireless High-Resolution Audio with LDAC™ transmits 990 kbps of pure sonic texture—preserving every subtle breath, strike, and echo.
+        </p>
+        <p class="stage-copy">
+          DSEE Ultimate™ neural upscaling restores high-frequency detail lost during lossy digital compression in real time.
+        </p>
+        <div class="stage-metrics-grid">
+          <div class="metric-item">
+            <span class="metric-val">990 kbps</span>
+            <span class="metric-lbl">LDAC Transfer</span>
+          </div>
+          <div class="metric-item">
+            <span class="metric-val">32-bit</span>
+            <span class="metric-lbl">DSP Processing</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+   
+    <div class="story-stage-row align-right" id="stage-4">
+      <div class="editorial-text-block">
+        <div class="stage-badge">04 / ENDURANCE & CRAFT</div>
+        <h2 class="stage-headline">Designed for focus, crafted for comfort.</h2>
+        <p class="stage-copy">
+          Seamless stepless slider, ultra-soft pressure-relieving synthetic protein leather, and a lightweight 248g chassis designed for zero fatigue.
+        </p>
+        <div class="stage-metrics-grid">
+          <div class="metric-item">
+            <span class="metric-val">40 hrs</span>
+            <span class="metric-lbl">Continuous Playback</span>
+          </div>
+          <div class="metric-item">
+            <span class="metric-val">3 min</span>
+            <span class="metric-lbl">= 5 Hrs Quick Charge</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    
+    <section class="story-stage-cta" id="stage-cta">
+      <h2 class="hero-title">Hear everything.<br>Feel nothing else.</h2>
+      <p class="hero-subtitle">WH‑1000XM6. Available now for pre-order.</p>
+      
+      <div class="cta-actions">
+        <button class="primary-btn" data-scroll-to="frame:0.02">
+          <span>Experience WH-1000XM6</span>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+            <path d="M5 12h14M12 5l7 7-7 7"/>
+          </svg>
+        </button>
+      </div>
+    </section>
+
+  </main>
+
+  
+  <footer class="footer-dark">
+    <div class="footer-content">
+      <div class="footer-brand">
+        <span class="sony-wordmark">SONY</span>
+        <span class="brand-divider"></span>
+        <span class="product-pill">WH-1000XM6</span>
+      </div>
+      <div>&copy; 2026 Sony Corporation. All rights reserved.</div>
+      <ul class="footer-links">
+        <li><a href="#">Privacy</a></li>
+        <li><a href="#">Legal</a></li>
+        <li><a href="#">Support</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
